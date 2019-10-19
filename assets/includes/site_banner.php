@@ -27,7 +27,7 @@ NOTES
 
 			<h2>Welcome to <?php bloginfo( 'title' ); if ( is_home() ) { echo ' blog'; } ?></h2>
 
-			<p>The Ball 2026 kicks off from Battersea Park in London, where the first official game of football was played, and will travel to the World Cup in Canada, Mexico and the USA.</p>
+			<p>The Ball 2026 kicks off from Battersea Park in London, where the first official game of football was played, and travels to the World Cup in Canada, Mexico and the USA.</p>
 
 			<?php if ( ! is_home() ) { ?>
 				<p id="gotoblog"><a href="/2026/blog/">Read the blog &rarr;</a></p>
