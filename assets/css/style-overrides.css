@@ -1,0 +1,122 @@
+/*
+================================================================================
+The Ball 2026 Child Theme Styles
+================================================================================
+AUTHOR: Christian Wach <needle@haystack.co.uk>
+--------------------------------------------------------------------------------
+NOTES
+
+--------------------------------------------------------------------------------
+*/
+
+
+
+/* Header Background */
+#header_inner
+{
+	background: #0A0933 url("../images/interface/2026_route_header.jpg") 20px top no-repeat;
+}
+
+
+
+/* Facebook */
+.fbfpi_photo img,
+.fbfpi_image img,
+.fbfpi_event img
+{
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+/* Support SOF Utilities Mirror */
+.sof_mirror
+{
+	margin: 0.7em 0 1.2em 0;
+}
+
+.sof_mirror a
+{
+	text-decoration: none;
+	font-size: 70%;
+}
+
+
+
+@media (max-width: 725px) {
+
+	.page-template-page_subpages_splash #main_column_splash .post div.splash_copy
+	{
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 380px;
+		width: 43%;
+		padding: 0;
+		margin: 0;
+		background: #fff;
+		background: rgba( 255, 255, 255, 0.66 );
+		font-size: 110%;
+	}
+
+}
+
+@media (max-width: 600px) {
+
+	.page-template-page_subpages_splash #main_column_splash
+	{
+		background: #fff;
+	}
+
+	.page-template-page_subpages_splash #main_column_splash .post,
+	.page-template-page_subpages_splash #main_column_splash .post.splash_post
+	{
+		position: relative;
+		height: auto;
+		padding: 0;
+		overflow: hidden;
+	}
+
+	.page-template-page_subpages_splash #main_column_splash .post div.splash_image
+	{
+		float: none;
+		position: relative;
+		top: auto;
+		left: auto;
+	}
+
+	.page-template-page_subpages_splash #main_column_splash .post div.splash_copy
+	{
+		position: relative;
+		top: auto;
+		left: auto;
+		height: auto;
+		width: auto;
+		background: #fff;
+		font-size: 110%;
+		padding: 0 1em;
+	}
+
+}
+
+
+
+/* next natural breakpoint */
+@media all and (max-width: 570px) {
+
+	.home #main_column_splash .post .splash_copy p
+	{
+		line-height: 1.4;
+		font-size: 70%;
+	}
+
+	.home #main_column_splash .splash_copy_inner
+	{
+		padding-top: 5px;
+	}
+
+}
+
+
+
