@@ -26,8 +26,8 @@ get_header(); ?>
 		<?php
 
 		// Search Nav.
-		$pl = get_next_posts_link( __( '&laquo; Older Posts', 'theball' ) );
-		$nl = get_previous_posts_link( __( 'Newer Posts &raquo;', 'theball' ) );
+		$pl = get_next_posts_link( __( '&laquo; Older Posts', 'theball2026' ) );
+		$nl = get_previous_posts_link( __( 'Newer Posts &raquo;', 'theball2026' ) );
 
 		?>
 
@@ -75,7 +75,7 @@ get_header(); ?>
 
 							<div class="post_header_text">
 
-								<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute( [ 'before' => __( 'Permanent Link to: ', 'theball' ), 'after'  => '' ] ); ?>"><?php the_title(); ?></a></h2>
+								<h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute( [ 'before' => __( 'Permanent Link to: ', 'theball2026' ), 'after'  => '' ] ); ?>"><?php the_title(); ?></a></h2>
 
 							</div><!-- /post_header_text -->
 
@@ -87,7 +87,7 @@ get_header(); ?>
 						<?php the_excerpt(); ?>
 					</div>
 
-					<p class="postmetadata"><?php the_tags( __( 'Tags: ', 'theball' ), ', ', '<br />' ); ?> <?php _e( 'Posted in ', 'theball' ) . the_category( ', ' ) ?> | <?php comments_popup_link( __( 'No Comments &#187;', 'theball' ), __( '1 Comment &#187;', 'theball' ), __( '% Comments &#187;', 'theball' ) ); ?></p>
+					<p class="postmetadata"><?php the_tags( __( 'Tags: ', 'theball2026' ), ', ', '<br />' ); ?> <?php _e( 'Posted in ', 'theball2026' ) . the_category( ', ' ) ?> | <?php comments_popup_link( __( 'No Comments &#187;', 'theball2026' ), __( '1 Comment &#187;', 'theball2026' ), __( '% Comments &#187;', 'theball2026' ) ); ?></p>
 
 				</div>
 
@@ -110,9 +110,9 @@ get_header(); ?>
 
 			<div class="post">
 
-				<h2><?php _e( 'Page not found', 'theball' ); ?></h2>
+				<h2><?php _e( 'Page not found', 'theball2026' ); ?></h2>
 
-				<p><?php _e( 'Sorry, but you are looking for something that isn’t here. Try a search?', 'theball' ); ?></p>
+				<p><?php _e( 'Sorry, but you are looking for something that isn’t here. Try a search?', 'theball2026' ); ?></p>
 
 				<?php include( get_template_directory() . '/searchform.php' ); ?>
 
