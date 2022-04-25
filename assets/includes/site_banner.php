@@ -39,8 +39,6 @@
 
 </div><!-- /site_banner -->
 
-
-
 <div id="cols" class="clearfix">
 <div class="cols_inner">
 

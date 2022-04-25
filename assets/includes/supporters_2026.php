@@ -16,6 +16,3 @@
 	</div><!-- sponsor_logos -->
 
 </div><!-- /sponsors -->
-
-
-
