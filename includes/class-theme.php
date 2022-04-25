@@ -77,7 +77,7 @@ class SOF_The_Ball_2026_Theme {
 		}
 
 		// Include global scope Theme Functions.
-		//include get_stylesheet_directory() . '/includes/functions-theme.php';
+		//include get_template_directory() . '/includes/functions-theme.php';
 
 		// We're done.
 		$done = true;
