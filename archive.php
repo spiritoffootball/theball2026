@@ -8,9 +8,13 @@
  * @package The_Ball_2026
  */
 
+// Exit if accessed directly.
+defined( 'ABSPATH' ) || exit;
+
 get_header();
 
-?><!-- archive.php -->
+?>
+<!-- archive.php -->
 
 <div id="content_wrapper" class="clearfix">
 
@@ -150,10 +154,6 @@ get_header();
 
 </div><!-- /main_column -->
 
-
-
 <?php get_sidebar(); ?>
-
-
 
 <?php get_footer(); ?>
