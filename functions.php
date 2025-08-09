@@ -4,7 +4,6 @@
  *
  * Theme amendments and overrides.
  *
- * @since 1.0.0
  * @package The_Ball_2026
  */
 
@@ -19,14 +18,12 @@ define( 'THEBALL2026_VERSION', '2.0.0' );
  *
  * @since 1.0.0
  *
- * @return SOF_The_Ball_Theme $theme The theme instance.
+ * @return SOF_The_Ball_2026_Theme $theme The theme instance.
  */
 function sof_the_ball_2026_theme() {
 
-	// Declare as static.
+	// Maybe instantiate theme class.
 	static $theme;
-
-	// Instantiate plugin if not yet instantiated.
 	if ( ! isset( $theme ) ) {
 		include get_stylesheet_directory() . '/includes/class-theme.php';
 		$theme = new SOF_The_Ball_2026_Theme();
